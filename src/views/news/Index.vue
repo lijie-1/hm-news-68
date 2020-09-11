@@ -10,7 +10,7 @@
           <span>搜索新闻</span>
         </div>
       </div>
-      <div class="user">
+      <div class="user" @click="$router.push('/user')">
         <span class="iconfont iconwode"></span>
       </div>
     </div>
