@@ -22,7 +22,10 @@ import './utils/vant'
 const bus = new Vue()
 
 Vue.prototype.$bus = bus
-Vue.config.productionTip = true
+// bus.$on('reply', function () {
+//   console.log("bus的reply");
+// })
+Vue.config.productionTip = false
 
 window.vm = new Vue({
     router,
